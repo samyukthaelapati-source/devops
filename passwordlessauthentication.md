@@ -7,6 +7,13 @@ ssh-copy-id: This is the command used to copy your public key to a remote machin
 "-o IdentityFile ": This option specifies the identity file (private key) to use for the connection. 
 The -o flag passes this option to the underlying ssh command.
 
+
+
+
+
+
+
+
 ubuntu@: This is the username (ubuntu) and the IP address of the remote server you want to access.
 Using Password
 Go to the file /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
